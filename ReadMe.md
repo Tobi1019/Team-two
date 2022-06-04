@@ -6,4 +6,4 @@
 
 4. Section 3(make the connection between total compensa and personal fitness)—-NONYE
 
-5.Reviewa/footer—-MIZTECHIE
+5.Reviews/footer—-MIZTECHIE
