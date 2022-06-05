@@ -1,0 +1,44 @@
+/*Font*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Poppins&display=swap');
+
+
+
+
+/*general*/
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+outline: none;  
+}
+
+
+::before, ::after{
+box-sizing: border-box;
+}
+ body{
+font-family: 'Open Sans', sans-serif;
+font-size: 16px;
+line-height: 1.5; 
+}
+
+
+
+
+
+.section-one h2{
+font-size: 35px;
+text-transform: capitalize;
+}
+  
+  .section-one h2::before{
+content: attr(data-title);
+display: block;
+font-size: 24px;
+  color: grey ;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  text-transform: capitalize;
+  
+  }
+  
