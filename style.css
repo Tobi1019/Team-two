@@ -1,0 +1,98 @@
+/*Font*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Poppins&display=swap');
+
+/*general*/
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+outline: none;  
+}
+
+
+::before, ::after{
+box-sizing: border-box;
+}
+ body{
+font-family: 'Open Sans', sans-serif;
+font-size: 16px;
+line-height: 1.5; 
+}
+
+
+.section-one h2{
+font-size: 35px;
+text-transform: capitalize;
+}
+  
+  .section-one h2::before{
+content: attr(data-title);
+display: block;
+font-size: 24px;
+color: grey ;
+font-family: 'Poppins', sans-serif;
+font-weight: 400;
+text-transform: capitalize;  
+}
+
+.one-card .number-one{
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  padding: 10px;
+  background: #FBCADBff;
+  border: 3px solid transparent;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+
+}
+.one-card .number-two{
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  padding: 10px;
+  background: #06ec98;
+  border: 3px solid transparent;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+}
+.one-card .number-three{
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  padding: 10px;
+  background: #4728C4ff;
+  border: 3px solid transparent;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+}
+.circle-one{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 50px;
+  width: 100px;
+  border-radius: 150px 150px 0 0;
+  background-color:  #4728C4ff;
+  }
+
+
+.circle-three{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(50%, 50%);
+  height: 50px;
+  width: 100px;
+  border-radius: 150px 150px 0 0;
+  background-color:hsl(323, 80%, 67%) ;
+}
+
+
+.section-b{
+  background-color: #F9F5F2ff;
+}
