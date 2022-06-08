@@ -273,7 +273,7 @@ height:300px;
 
 .image-box{
 margin-left: 50px;
-padding: 20px ;
+padding: 20px;
 }
 
  .image-box i{
@@ -284,7 +284,8 @@ padding: 20px ;
  position: absolute;
  width: 100px;
  height: 100px;
- top: 105rem;
+ top: 102rem;
+ left:30%
 
 }
 .preserve-content .blue, 
