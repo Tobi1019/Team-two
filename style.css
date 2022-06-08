@@ -177,7 +177,8 @@ margin: 15px;
   padding-bottom: 20px;
 }
 
-.one-card h3, .one-card p{
+.three, 
+.para{
   text-align:center;
 }
 
@@ -267,10 +268,10 @@ height:300px;
   position: absolute;
   height: 200px;
   width: 200px;
-  margin-top: 200px;
+  margin-top: 80rem;
   border-radius: 50%;
   border:20px solid  #06ec98;
-  left: calc(15% - 100px);
+  left: calc(40% - 100px);
   top: calc(70% - 100px);
   opacity: 0.2;
 }
@@ -285,11 +286,12 @@ padding: 20px ;
 }
 
 .preserve-content .image-box img{
- position: absolute;
+  position: absolute;
  width: 100px;
  height: 100px;
- bottom: -3%;
- left: 12%;
+ bottom: -60rem;
+ left: 30%;
+ top: 109rem;
 }
 .preserve-content .blue, 
 .preserve-content .green{
@@ -377,6 +379,7 @@ height: 100%;
 object-fit: cover;
 box-shadow: 0 10px 25px rgba(0, 0, 0, rgba(0, 0, 0, 0.502));
 }
+
 h3{
     font-size: xx-large;
     text-decoration: underline;
