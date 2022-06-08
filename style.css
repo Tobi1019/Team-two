@@ -161,6 +161,7 @@ margin: 15px;
 }
 
 .section-a{
+  font-family: 'Poppins', sans-serif;
  margin-top:15px;
  display:flex;
  justify-content:center;
@@ -265,8 +266,8 @@ height:300px;
   margin-top: 200px;
   border-radius: 50%;
   border:20px solid  #06ec98;
-  left: calc(15% - 100px);
-  top: calc(70% - 100px);
+  left: calc(25% - 100px);
+  top: calc(200% - 100px);
   opacity: 0.2;
 }
 
@@ -283,8 +284,8 @@ padding: 20px ;
  position: absolute;
  width: 100px;
  height: 100px;
- bottom: -3%;
- left: 12%;
+ top: 105rem;
+
 }
 .preserve-content .blue, 
 .preserve-content .green{
