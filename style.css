@@ -1,3 +1,8 @@
+
+/*Font*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Poppins&display=swap');
+
+/*general*/
 *{
     margin: 0;
     padding: 0;
@@ -5,7 +10,6 @@
     list-style: none;
     box-sizing: border-box;
    text-decoration: none;
-   line-height: 1.5;
 }
 :root{
     --bg-color:#ffffff;
@@ -74,9 +78,9 @@ header{
     transform: scale(1.1);
     color: purple;
 }
-  section{
-      padding: 100px 18%;
-  }
+section{
+ padding: 100px 18%;
+}
   .home{
       min-height: 100vh;
       height: 100%;
@@ -125,30 +129,7 @@ button:hover{
    
 }
 
-section{
-    padding: 100px 18%;
-}
-.middle{
-    min-height: 100vh;
-    height: 100%;
-    width:100;
-    position: relative;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    align-items: center;
-    grid-gap: 4rem;
-    background-color:white;
-}
-.middle-text{
-  margin: 10px 0px 25px;
-  font-size: var(--big-font);
-  line-height: 1; 
-}
-h1{
-    font-size: 40px;
-}
-
-.two{
+h2{
 font-size: 35px;
 text-transform: capitalize;
 text-align:center;
@@ -156,23 +137,28 @@ padding:10px;
 margin:10px;
 }
 
-.three{
+h3{
 font-size:20px;
 }
 
-.para{
+p{
   font-size:15px;
   font-weight: 400;
   text-align:center;
 }
 
+ body{
+font-family: 'Open Sans', sans-serif;
+font-size: 16px;
+line-height: 1.5; 
+}
   
  .section-one h2::before{
 content: attr(data-title);
 display: block;
 font-size: 24px;
 text-align: center;
-color: grey ;
+color: grey;
 font-family: 'Poppins', sans-serif;
 font-weight: 400;
 text-transform: capitalize; 
@@ -191,7 +177,8 @@ margin: 15px;
   padding-bottom: 20px;
 }
 
-.one-card h3, .one-card p{
+.three, 
+.para{
   text-align:center;
 }
 
@@ -238,6 +225,7 @@ margin: 15px;
   font-weight: 900;
 }
 
+
 .section-b{
   background-color: #F9F5F2ff;
   margin:30px;
@@ -280,10 +268,10 @@ height:300px;
   position: absolute;
   height: 200px;
   width: 200px;
-  margin-top: 200px;
+  margin-top: 80rem;
   border-radius: 50%;
   border:20px solid  #06ec98;
-  left: calc(15% - 100px);
+  left: calc(40% - 100px);
   top: calc(70% - 100px);
   opacity: 0.2;
 }
@@ -298,11 +286,12 @@ padding: 20px ;
 }
 
 .preserve-content .image-box img{
- position: absolute;
+  position: absolute;
  width: 100px;
  height: 100px;
- bottom: -3%;
- left: 12%;
+ bottom: -60rem;
+ left: 30%;
+ top: 109rem;
 }
 .preserve-content .blue, 
 .preserve-content .green{
@@ -324,6 +313,29 @@ padding: 8px 10px;
 }
 
 
+
+section{
+    padding: 100px 18%;
+}
+.middle{
+    min-height: 100vh;
+    height: 100%;
+    width:100;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    grid-gap: 4rem;
+    background-color:white;
+}
+.middle-text{
+  margin: 10px 0px 25px;
+  font-size: var(--big-font);
+  line-height: 1; 
+}
+h1{
+    font-size: 40px;
+}
 
 #review{
     background: rgba(200, 182, 182, 0.241);
@@ -367,6 +379,7 @@ height: 100%;
 object-fit: cover;
 box-shadow: 0 10px 25px rgba(0, 0, 0, rgba(0, 0, 0, 0.502));
 }
+
 h3{
     font-size: xx-large;
     text-decoration: underline;
@@ -377,4 +390,3 @@ footer{
     font-size: 200%;
     color: white;
 }
-
