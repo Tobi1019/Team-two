@@ -5,6 +5,7 @@
     list-style: none;
     box-sizing: border-box;
    text-decoration: none;
+   line-height: 1.5;
 }
 :root{
     --bg-color:#ffffff;
