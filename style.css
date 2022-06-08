@@ -151,18 +151,84 @@ background-color: transparent;
 .section-b{
   background-color: #F9F5F2ff;
   margin:30px;
-  padding: 50px;
+}
+
+
+.preserve{
+  display: grid; 
+  grid-template-columns: 1fr 1fr; 
+  grid-gap: 20px; 
+  border: 1px solid transparent 
 }
 .preserve-content{
-  display: flex;
+margin-top: 20px;
+padding-top: 15px;
 }
 
 
-.images{
-border-radius: 150px;
-background-color:#06ec98;
-max-width: 300px;
+.preserve-content p{
+  font-size: 14px;
+ text-align: left;
+padding: 4px;
+color: grey;
 }
-.images img{
-width:100px;
+.preserve-content:first-child{
+margin-right:20px;
+}
+
+#circle{
+background: #06ec98;
+margin-top:200px;
+border-radius: 50%;
+width: 300px;
+height:300px;
+}
+
+
+.preserve-content .image-box::before{
+  content: '';
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  margin-top: 200px;
+  border-radius: 50%;
+  border:20px solid  #06ec98;
+  left: calc(15% - 100px);
+  top: calc(70% - 100px);
+  opacity: 0.2;
+}
+
+.image-box{
+margin-left: 50px;
+padding: 20px ;
+}
+
+ .image-box i{
+  font-size: 50px;
+}
+
+.preserve-content .image-box img{
+ position: absolute;
+ width: 100px;
+ height: 100px;
+ bottom: -3%;
+ left: 12%;
+}
+.preserve-content .blue, 
+.preserve-content .green{
+margin: 15px;
+padding: 8px 10px;
+}
+
+
+.preserve-content .blue i{
+  color:blue;
+  font-size: 20px;
+  padding-right:16px;
+}
+
+.preserve-content .green i{
+  color: #06ec98;
+  font-size: 20px;
+  padding-right: 16px;
 }
