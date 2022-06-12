@@ -7,12 +7,17 @@
    text-decoration: none;
 }
 :root{
+     --shadow: 0 0 15px rgba(0,0,0,0.25);
     --bg-color:#ffffff;
     --text-color:#000;
     --big-font:5rem;
     --h2-font:3rem;
     --p-font:1.5rem
 }
+body{
+  
+}
+
 header{
     position: relative;
     width: 100%;
@@ -24,6 +29,7 @@ header{
     justify-content: space-between;
     background: transparent;
     padding: 16px 3%;
+    background-color: white;
 }
 .logo{
     max-width: 100%;
@@ -89,9 +95,10 @@ header{
     color: purple;
 }
   section{
+    background-color: #fbcadb54;
       padding: 100px 18%;
   }
-  .home{
+  .home{    
       min-height: 100vh;
       height: 100%;
       width:100;
@@ -302,13 +309,60 @@ padding: 20px;
   object-fit: cover;
 box-shadow: 0 10px 25px rgba(0, 0, 0, rgba(0, 0, 0, 0.502));
 }
-h3{
-    font-size: xx-large;
-    text-decoration: underline;
+
+.preserve-content .blue i{
+  color:blue;
+  font-size: 20px;
+  padding-right:16px;
 }
-footer{
-    background: purple;
-    text-align: center;
-    font-size: 200%;
-    color: white;
+
+.preserve-content .green i{
+  color: #06ec98;
+  font-size: 20px;
+  padding-right: 16px;
+}
+
+.rev-section{
+background-color: rgba(100, 148, 237, 0.178);
+
+}
+
+
+
+.footer{
+  width: 100%;
+  height: 40vh;
+  background-color: #a420c5;
+background-image: url("data:image/svg+xml,%3Csvg width='30' height='30' viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M15 0C6.716 0 0 6.716 0 15c8.284 0 15-6.716 15-15zM0 15c0 8.284 6.716 15 15 15 0-8.284-6.716-15-15-15zm30 0c0-8.284-6.716-15-15-15 0 8.284 6.716 15 15 15zm0 0c0 8.284-6.716 15-15 15 0-8.284 6.716-15 15-15z' fill='%235b00ed' fill-opacity='0.5' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+
+.footer h2{
+  font-family: 'Poppins', sans-serif;
+  color: #FBCADBff;
+  text-align: center;
+  padding: 5rem;
+  font-size: 2.5rem;
+}
+.footer-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px; 
+}
+.footer-button button{
+  color: black;
+  background-color: #6495ed;
+  border-radius: 10px;
+  padding: 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.footer-button button:hover{
+  background-color: #a420c5;
+  box-shadow: var(--shadow);
 }
