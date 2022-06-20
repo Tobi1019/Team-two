@@ -339,6 +339,9 @@ left: calc(40% - 100px);
     font-size: 20px;
     padding-right: 16px;
 }
+.section-b img{
+margin-top: 10%;
+}
 
 .rev-section{
  margin: auto;
