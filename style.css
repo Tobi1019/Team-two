@@ -14,6 +14,26 @@
     --h2-font:3rem;
     --p-font:1.5rem
 }
+
+
+.container{
+  max-width: 1170px;
+  margin: auto;
+  }
+  
+  .row{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  }
+  
+  .section-title{
+  width: 100%;
+  padding: 0 15px;
+  text-align: center;
+  margin-bottom: 60px;
+  }
 header{
     position: relative;
     width: 100%;
@@ -146,6 +166,7 @@ button:hover{
 section{
     padding: 100px 18%;
 }
+
 .middle{
     min-height: 100vh;
     height: 100%;
@@ -173,7 +194,7 @@ h3{
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Poppins&display=swap');
 
-h2{
+.two{
 font-size: 35px;
 text-transform: capitalize;
 text-align:center;
@@ -202,14 +223,15 @@ font-family: 'Poppins', sans-serif;
 font-weight: 400;
 text-transform: capitalize; 
 margin: 15px; 
+padding: 10px;
 }
 
 .section-a{
-  font-family: 'Poppins', sans-serif;
- margin-top:15px;
- display:flex;
- justify-content:center;
- align-items:center;
+font-family: 'Poppins', sans-serif;
+margin-top:15px;
+display:flex;
+justify-content:center;
+align-items:center;
 }
 
 .one-card{
@@ -223,11 +245,12 @@ margin: 15px;
 }
 
 .numbers{
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
+display:flex;
+justify-content: center;
+align-items: center;
+padding: 10px;
 }
+
 .one-card .number-one{
   border-radius: 50%;
   width: 35px;
@@ -252,14 +275,8 @@ margin: 15px;
   font-size: 1rem;
   font-weight: 900;
 }
-.section{
-position: relative;
-display: grid;
-grid-template-columns: repeat(2, 1fr);
-align-items: center;
-grid-gap: 2rem;
 
-}
+
 .one-card .number-three{
   border-radius: 50%;
   width: 35px;
@@ -272,38 +289,59 @@ grid-gap: 2rem;
   font-size: 1rem;
   font-weight: 900;
 }
+
+
 .section-b{
-    background-color: #F9F5F2ff;
-    margin:30px;
+  background-color: #F9F5F2ff;
+  margin:40px;
+  padding: 10px;
+  height: 70vh;
   }
+
+
   .preserve{
-    display: grid; 
-    grid-template-columns: 1fr 1fr; 
-    grid-gap: 20px; 
-    border: 1px solid transparent 
+  display: grid; 
+  grid-template-columns: 1fr 1fr; 
+  grid-gap: 20px; 
+  border: 1px solid transparent 
   }
+
+
 .preserve-content {
   margin-top: 20px;
   padding-top: 15px;
-
   }
+
+
  .preserve-content p{
 font-size: 14px;
- text-align: left;
+text-align: left;
 padding: 4px;
 color: grey;
-  }
+}
+#circle{
+background: #06ec98;
+border-radius: 50%;
+margin-left: 3rem;
+margin-top:3rem;
+padding-top: 15px;
+width:300px;
+height:300px;
+}
+
+
 .preserve-content:first-child{
     margin-right:20px;
 }
+
 .preserve-content .image-box img{
 position: absolute;
  width: 100px;
  height: 100px;
- top: 103rem;
+ top: 100rem;
  left:30%
-
 }
+
 .preserve-content .blue, 
 .preserve-content .green{
 object-fit: cover;
