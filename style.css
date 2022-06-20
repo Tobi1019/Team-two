@@ -213,6 +213,8 @@ font-size:20px;
   text-align:center;
 }
   
+
+
  .section-one h2::before{
 content: attr(data-title);
 display: block;
@@ -382,47 +384,86 @@ h1{
 }
 
 #review{
-  background: rgba(200, 182, 182, 0.241);
+background: rgba(200, 182, 182, 0.241);
 }
 
 .rev-section{
 margin: auto;
 padding: 0 1rem;  
-max-width: 110%;
-text-align: left;
 display:flex;
-
+justify-content: center;
+align-items: center;
 }
+
 .title{
 font-size: 1.5rem;
 text-transform: uppercase;
 color: rgb(50, 50, 50);
 margin-bottom: .5rem;
 }
+
 .note{
 font-size: 1.1rem;
 color: rgb(150, 150,150);
 font-style: italic;
 }
-.reviews{
-  margin: 2rem auto;
-  display:inline-block
+
+.reviews-card{
+margin: 2rem auto;
+display:inline-block
 }
+
+
+
 .review{
 margin: 0 1rem;
 min-width: 300px;
-flex: 1;
+flex: 2;
 }
-.head-review{
-margin: 1.7rem auto;
-width: 150px;
-height: 150px;
+
+.grey{
+  color: black;
+  font-weight: 500;
+  cursor: pointer;
+  padding-top: 0.3rem;
+  text-align: center;
 }
+
+.grey i{
+  color: black;
+  font-size: 16px;
+  font-weight: 900;
+}
+
+#about-us{
+background-color: transparent;
+text-align: center;
+margin: auto;
+}
+
+#about-us h4::before{
+  content: attr(data-title);
+  display: block;
+  font-size: 18px;
+  text-align: center;
+  color: grey ;
+  font-family: 'Poppins', sans-serif;
+  padding-bottom: 4px;
+  font-weight: 700;
+  text-transform: capitalize; 
+}
+
+#about-us p{
+color: black;
+
+}
+
 img{
 height: 100%;
 object-fit: cover;
 box-shadow: 0 10px 25px rgba(0, 0, 0, rgba(0, 0, 0, 0.502));
 }
+
 h3{
   font-size: xx-large;
   text-decoration: underline;
