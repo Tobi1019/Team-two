@@ -16,3 +16,5 @@ window.onscroll = () => {
     menu.classList.remove('bx-x');
     navbar.classList.remove('active');
 }
+$('#dropdown-btn').click (function(
+     $('dropdown-menu-display').toggleClass('menu-display');
