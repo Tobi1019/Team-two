@@ -47,7 +47,7 @@ header {
 }
 
 .navbar {
-  display: flex;
+display:flex;
 }
 
 .navbar li {
@@ -82,6 +82,7 @@ header {
   z-index: 10001;
   cursor: pointer;
   display: none;
+
 }
 
 .top-btn {
@@ -118,8 +119,6 @@ section {
   align-items: center;
   grid-gap: 4rem;
   background-color:rgba(200, 182, 182, 0.241);
-  transform:translateX(0);
-
 }
 
 .home-text {
@@ -185,7 +184,9 @@ section {
   font-size: var(--big-font);
   line-height: 1;
 }
-
+.numbers{
+  background-color: white;
+}
 h1 {
   font-size: 40px;
 }
@@ -219,7 +220,6 @@ body {
   font-size: 16px;
   line-height: 1.5;
 }
-
 .section-one h2::before {
   content: attr(data-title);
   display: block;
@@ -498,7 +498,7 @@ h3 {
 
 
 /*=======================================================MEDIAQUERIES FOR SMALL SCREENS==========================================================*/
- @media only screen and (max-width: 480px) and (min-width: 320px){
+ @media only screen and (max-width: 480px) and (min-width: 320px) {
   header{
       padding:18px 4%;
       transition: .2s;
