@@ -13,6 +13,6 @@ menu.onclick = () => {
 };
 
 window.onscroll = () => {
-    menu.classList.remove('bx-x');
-    navbar.classList.remove('active');
+    menu.classList.remove('bx-bx');
+    navbar.classList.remove('bx-bx');
 }
