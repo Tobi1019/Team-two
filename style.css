@@ -118,6 +118,8 @@ section {
   align-items: center;
   grid-gap: 4rem;
   background-color:rgba(200, 182, 182, 0.241);
+  transform:translateX(0);
+
 }
 
 .home-text {
