@@ -498,7 +498,7 @@ h3 {
 
 
 /*=======================================================MEDIAQUERIES FOR SMALL SCREENS==========================================================*/
-@media (max-width: 1270px){
+ @media only screen and (max-width: 480px) and (min-width: 320px){
   header{
       padding:18px 4%;
       transition: .2s;
