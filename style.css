@@ -518,6 +518,7 @@ h3 {
         --p-font: 1rem;
         transition: .2s;
     }
+  
 }
 
 @media (max-width: 990px) {
@@ -651,11 +652,8 @@ h3 {
     }
     .preserve-content .image-box img {
         position: absolute;
-        width: 100px;
-        height: 100px;
-        bottom: -60rem;
-        left: 88%;
-        top: 145rem;
+        width: 150px;
+        height: 150px;
     }
     .preserve-content .blue i {
         color: blue;
@@ -848,17 +846,15 @@ h3 {
     }
     .preserve-content .image-box img {
         position: absolute;
-        width: 100px;
-        height: 100px;
-        bottom: -60rem;
-        left: 30%;
-        top: 109rem;
+        width: 150px;
+        height: 150px;
+        
     }
     .preserve-content .blue i {
         font-size: 25px;
         padding-right: 16px;
     }
-    .preserve-content .green {
+    .preserve-content .green i {
         color: #06ec98;
         font-size: 25px;
         padding-right: 16px;
@@ -1049,11 +1045,8 @@ h3 {
     }
     .preserve-content .image-box img {
         position: absolute;
-        width: 100px;
-        height: 100px;
-        bottom: -60rem;
-        left: 50%;
-        top: 180rem;
+        width: 150px;
+        height: 150px;
     }
     .preserve-content .blue i {
         font-size: 3rem;
