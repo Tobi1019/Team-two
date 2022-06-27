@@ -45,6 +45,14 @@ header {
     padding: 10px 20px;
     font-size: 12px;
 }
+#menu-icon {
+    font-size: 35px;
+    color: #000;
+    z-index: 10001;
+    cursor: pointer;
+    display: none;
+  
+}
 
 .navbar {
     display: flex;
