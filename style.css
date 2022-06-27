@@ -581,7 +581,9 @@ h3 {
         padding: 0;
         overflow-x: hidden;
     }
-
+ .navbar{
+  display: none;
+ }
 
     .home {
         display: grid;
@@ -593,6 +595,10 @@ h3 {
         font-size: 4rem;
         line-height: 1.2;
     }
+    .home-img{
+      margin: auto;
+    }
+    
     section {
         padding: 0;
     }
@@ -606,12 +612,7 @@ h3 {
         margin-top: 5%;
         text-align: left;
     }
-    .home-img {
-        margin: auto;
-    }
-    .home-img img {
-        font-size: 2em;
-    }
+    
     .input-field {
         width: 180px;
         height: 40px;
@@ -772,6 +773,9 @@ h3 {
       margin: 0;
       padding: 0;
       overflow-x: hidden;
+  }
+  .navbar{
+    display: none;
   }
   .home {
       display: grid;
