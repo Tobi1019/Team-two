@@ -76,13 +76,7 @@ header {
     width: 100%;
 }
 
-#menu-icon {
-    font-size: 35px;
-    color: #000;
-    z-index: 10001;
-    cursor: pointer;
-    display: none;
-}
+
 
 .top-btn {
     display: inline-block;
@@ -529,9 +523,6 @@ h3 {
 @media (max-width: 990px) {
     .home {
         height: 85vh;
-    }
-    #menu-icon {
-        display: initial;
     }
     .navbar {
         position: absolute;
